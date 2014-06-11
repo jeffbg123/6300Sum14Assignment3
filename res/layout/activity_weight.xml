@@ -48,16 +48,15 @@
             android:onClick="handleClick"
             android:text="Kilograms" />
     </RadioGroup>
-    
+
      <Button
-        android:id="@+id/buttonBack"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/radioGroup1"
-        android:layout_marginLeft="17dp"
-        android:layout_marginTop="28dp"
-        android:onClick="handleClickBack"
-        android:text="Back" />
+         android:id="@+id/buttonBack"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/radioGroup1"
+         android:layout_below="@+id/radioGroup1"
+         android:layout_marginTop="26dp"
+         android:onClick="handleClickBack"
+         android:text="Back" />
 
 </RelativeLayout>

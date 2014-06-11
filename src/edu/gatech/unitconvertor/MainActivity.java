@@ -67,8 +67,6 @@ public class MainActivity extends ActionBarActivity {
 	public void handleClickDistance(View view) {
 		Intent i = new Intent(this, DistanceActivity.class);
 		startActivity(i);;
-				
-	
 	}
 	
 	public void handleClickTemperature(View view) {
